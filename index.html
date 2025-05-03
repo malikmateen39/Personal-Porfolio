@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AM Coder</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+</head>
+<body>
+  <header class="header">
+    <div class="header-container">
+      <a href="#about" class="logo">AM Coder</a>
+      
+      <button id="menu-toggle" class="menu-toggle" aria-label="Toggle menu">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </button>
+
+      <nav class="navigation" id="navigation">
+        <ul>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+        <svg id="moon-icon" class="theme-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
+        </svg>
+        <svg id="sun-icon" class="theme-icon hidden" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="5"></circle>
+          <line x1="12" y1="1" x2="12" y2="3"></line>
+          <line x1="12" y1="21" x2="12" y2="23"></line>
+          <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+          <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+          <line x1="1" y1="12" x2="3" y2="12"></line>
+          <line x1="21" y1="12" x2="23" y2="12"></line>
+          <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+          <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        
+        <div class="about-content">
+          <div class="about-text">
+            <p>
+              Hi there! I'm a passionate web developer with expertise in creating modern, 
+              responsive websites and applications. I specialize in HTML, CSS, JavaScript, 
+              and various modern frameworks.
+            </p>
+            <p>
+              When I'm not coding, you can find me exploring new technologies, contributing 
+              to open-source projects, or enjoying outdoor activities.
+            </p>
+            
+            <div class="skills">
+              <h3>My Skills</h3>
+              <div class="skills-container">
+                <span class="skill-tag">HTML5</span>
+                <span class="skill-tag">CSS3</span>
+                <span class="skill-tag">JavaScript</span>
+                <span class="skill-tag">Responsive Design</span>
+                <span class="skill-tag">UX/UI</span>
+                <span class="skill-tag">Web Designer</span>
+                <span class="skill-tag">Editor</span>
+                <span class="skill-tag">Graphic Designer</span>
+              </div>
+            </div>
+          </div>
+          
+          <div class="profile-image">
+            <div class="profile-frame">
+              <img src="profile.jpg" alt="Profile Photo" class="profile-photo">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Projects</h2>
+        
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-image">
+                  <img src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b" alt="E-commerce Platform" />
+                </div>
+                <h3>E-commerce Platform</h3>
+                <p>A full-featured e-commerce platform built with modern technologies. Includes product management, cart functionality, and secure payment processing.</p>
+                <div class="project-tags">
+                  <span class="project-tag">JavaScript</span>
+                  <span class="project-tag">React</span>
+                  <span class="project-tag">Node.js</span>
+                </div>
+              </div>
+          
+          <div class="project-card">
+            <div class="project-image">
+              <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6" alt="Portfolio Website" />
+            </div>
+            <h3>Portfolio Website</h3>
+            <p>A responsive portfolio website for creative professionals. Features smooth animations, dark mode, and project showcase.</p>
+            <div class="project-tags">
+              <span class="project-tag">HTML</span>
+              <span class="project-tag">CSS</span>
+              <span class="project-tag">JavaScript</span>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image">
+              <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158" alt="Task Management App" />
+            </div>
+            <h3>Task Management App</h3>
+            <p>A collaborative task management application with real-time updates, user permissions, and drag-and-drop interface.</p>
+            <div class="project-tags">
+              <span class="project-tag">JavaScript</span>
+              <span class="project-tag">React</span>
+              <span class="project-tag">Firebase</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    
+
+    <section id="contact" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        
+        <div class="contact-content">
+          <div class="contact-info">
+            <h3>Get in Touch</h3>
+            <p>
+              Have a question or want to work together? Feel free to reach out using the contact form.
+            </p>
+            
+            <div class="contact-details">
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                  </svg>
+                </div>
+                <div>
+                  <h4>Email</h4>
+                  <a href="mailto:example@example.com">malikmateen989@gmail.com.com</a>
+                </div>
+              </div>
+              
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 11c0 3.517-1.009 6.799-2.753 9.571m-3.44-2.04l.054-.09A13.916 13.916 0 008 11a4 4 0 118 0c0 1.017-.07 2.019-.203 3m-2.118 6.844A21.88 21.88 0 0015.171 17m3.839 1.132c.645-2.266.99-4.659.99-7.132A8 8 0 008 4.07M3 15.364c.64-1.319 1-2.8 1-4.364 0-1.457.39-2.823 1.07-4" />
+                  </svg>
+                </div>
+                <div>
+                  <h4>Location</h4>
+                  <p>Al Madina Colony Street No 06 Chak No 243 Rb, Roshan Wala Samundari Road Fsd</p>
+                </div>
+              </div>
+              
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
+                  </svg>
+                </div>
+                <div>
+                  <h4>Social</h4>
+                  <div class="social-links">
+                    <!-- GitHub -->
+                    <a href="https://github.com/malikmateen39" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017C2 16.425 4.865 20.168 8.839 21.5C9.339 21.586 9.5 21.272 9.5 21V19.031C6.672 19.662 5.967 17.827 5.967 17.827C5.421 16.503 4.633 16.137 4.633 16.137C3.546 15.41 4.717 15.422 4.717 15.422C5.934 15.5 6.562 16.656 6.562 16.656C7.626 18.477 9.363 17.9 9.5 17.684C9.6 17.17 9.825 16.812 10.078 16.594C7.854 16.35 5.5 15.469 5.5 11.5C5.5 10.39 5.91 9.5 6.625 8.797C6.525 8.547 6.175 7.453 6.7 5.797C6.7 5.797 7.612 5.5 9.5 6.734C10.29 6.5 11.15 6.375 12 6.375C12.85 6.375 13.71 6.5 14.5 6.734C16.388 5.5 17.3 5.797 17.3 5.797C17.825 7.453 17.475 8.547 17.375 8.797C18.09 9.5 18.5 10.39 18.5 11.5C18.5 15.484 16.141 16.344 13.906 16.578C14.191 16.859 14.45 17.297 14.45 17.969C14.45 18.906 14.438 19.656 14.438 21C14.438 21.272 14.594 21.591 15.109 21.5C19.138 20.163 22 16.425 22 12.017C22 6.484 17.523 2 12 2Z" fill="currentColor"/>
+                        </svg>
+                    </a>
+                    
+                    <!-- Instagram -->
+                    <a href="https://www.instagram.com/itx__malikmateen/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z" fill="currentColor"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M7 3C4.79086 3 3 4.79086 3 7V17C3 19.2091 4.79086 21 7 21H17C19.2091 21 21 19.2091 21 17V7C21 4.79086 19.2091 3 17 3H7ZM17 5H7C5.89543 5 5 5.89543 5 7V17C5 18.1046 5.89543 19 7 19H17C18.1046 19 19 18.1046 19 17V7C19 5.89543 18.1046 5 17 5ZM17.9999 6.5C18.5522 6.5 18.9999 6.94772 18.9999 7.5C18.9999 8.05228 18.5522 8.5 17.9999 8.5C17.4476 8.5 16.9999 8.05228 16.9999 7.5C16.9999 6.94772 17.4476 6.5 17.9999 6.5Z" fill="currentColor"/>
+                        </svg>
+                    </a>
+                    
+                    <!-- LinkedIn -->
+                    <a href="https://www.linkedin.com/in/malikmateen56/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M19 3C20.1046 3 21 3.89543 21 5V19C21 20.1046 20.1046 21 19 21H5C3.89543 21 3 20.1046 3 19V5C3 3.89543 3.89543 3 5 3H19ZM18.5 18.5V13.2C18.5 10.4 16.9 9 14.7 9C13.1 9 12.2 9.9 11.8 10.5V9.7H9.1V18.5H11.9V13.7C11.9 12.2 12.8 11.2 14.1 11.2C15.4 11.2 15.9 12.2 15.9 13.7V18.5H18.5ZM7.2 6C6.2 6 5.5 6.7 5.5 7.6C5.5 8.5 6.2 9.2 7.3 9.2C8.4 9.2 9.1 8.5 9.1 7.6C9.1 6.7 8.4 6 7.2 6ZM5.8 18.5V9.7H8.6V18.5H5.8Z" fill="currentColor"/>
+                        </svg>
+                    </a>
+
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="contact-form-container">
+            <form id="contact-form" class="contact-form">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+              </div>
+              
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+              </div>
+              
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+              </div>
+              
+              <button type="submit" id="submit-btn" class="submit-btn">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-container">
+      <div>
+        <p>&copy; <span id="current-year">2025</span> Portfolio. All rights reserved.</p>
+      </div>
+      
+      <nav class="footer-nav">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
+  <div id="toast" class="toast hidden">Message sent successfully!</div>
+  <script src="script.js"></script>
+</body>
+</html>
